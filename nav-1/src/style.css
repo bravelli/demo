@@ -1,0 +1,45 @@
+/* css reset */
+*{box-sizing: border-box;}
+*:after,*:before{box-sizing: border-box;}
+*{margin:0;padding: 0;}
+ul,ol{list-style: none;}
+
+/* style */
+body{background-color: #eee;}
+
+.searchForm {
+    display: flex;
+    justify-content: space-between;
+}
+.globalHeader{
+    border: 1px solid red;
+    margin: 20px 20px;//可以缩写为 margin:20px
+}
+.searchForm > input{
+    width: 100%;
+    margin-right: 10px;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+
+}
+.searchForm > button{
+    white-space: nowrap;
+    padding: 0 28px;
+    border: none;
+    border-radius: 4px;
+    background: #0282B9;
+    color: white;
+    font-size: 16px;
+
+}
+.globalMain{
+
+}
+.siteList{}
+.siteList > li {}
+.site{}
+.site > .logo{}
+.site > .link{}
+.addButton{}
